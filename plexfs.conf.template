@@ -1,0 +1,11 @@
+[plex]
+base_url = http://YOUR_PLEX_SERVER:32400
+token = YOUR_PLEX_TOKEN
+cache_db = /var/cache/plexfs/cache.db
+mount_point = /media/plex
+cache_ttl = 3600
+download_mode = true
+refresh_interval = 3600
+debug = true
+stream_limit_bytes_per_sec = 10485760
+chunk_size_bytes = 524288
