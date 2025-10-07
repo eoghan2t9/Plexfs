@@ -9,3 +9,4 @@ refresh_interval = 3600
 debug = true
 stream_limit_bytes_per_sec = 10485760
 chunk_size_bytes = 524288
+max_threads = 16
